@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    font-size: 40;
+}
+
+/*-----seccion header------*/
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+}
+
+.menu {
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.menu-items li {
+    border radius: 3px;
+    margin: 0 5px;
+}
+
+
+.menu-items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: whitesmoke;
+}
+
+.menu-items li:hover,
+li:active {
+    background-color: rgb(98, 93, 93);
+    transition: .4s;
+}
+
+.btn-menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+    display: none;
+}
+
+ul.muestra {
+    top: 65px;
+}
+
+
+.banner {
+    width: 100%;
+    height: calc(100vw-40vh);
+    background-image: url(../img/imagen_fondo1.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+
+/*-----Seccion main------*/
+
+main {
+    padding: 40px;
+
+}
+
+.titulos {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+p {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 2rem;
+
+}
+
+form {
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input,
+textarea {
+    color: grey;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid color gray;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+
+
+/*----Seccioon footer...*/
+
+.footer {
+    background-color: white;
+    padding: 40px;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+
+
+}
+
+/*---Seccion Redes Sociales---*/
+
+.contenedor-redes {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-redes i {
+
+    font-size: 3rem;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.derechos {
+    margin-left: 40vw;
+}
+
+
+
+/*------------------------------SECCION GRID------------------------*/
+
+
+
+/*---Seccion Biografia---*/
+
+.grids-bio {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+/*---Seccion Galeria---*/
+
+.contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1, 1fr;
+}
+
+@media (max-width: 480px) {
+    .contenedor-galeria{
+        display: grid;
+        grid-template-columns: 1,1fr;
+        grid-row: 3, 20vw;
+    }
+
+}
+
+
+
+/*---Seccion Obras Destacadas---*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 500px);
+
+    gap: 20px 40px;
+
+}
+
+/*--------------------------SECCION RESPONSIVE---------------------------*/
+
+/*---Seccion header---*/
+
+
+@media screen and (max-width: 952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 35px;
+    }
+
+    .menu-items li a{
+        font-size: 16px;
+    }   
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .menu {
+        height: 65px;
+    }
+
+    .btn-menu {
+        display: inline-flex;
+    }
+
+    .menu-items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background-color: black;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu-items li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu-items li:hover {
+        background: none;
+    }
+
+    .menu-items li a {
+        font-size: 15px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    .menu-items li a:hover {
+        color: black;
+    }
+
+    .derechos {
+        font-size: 5px;
+        text-align: left;
+    }
+}
+
+
+
+/*---Seccioon obras destacadas---*/
+
+
+
+@media (max-width: 480px) {
+    .contenedor {
+        grid-template-columns: (1, 1fr);
+        grid-template-rows: repeat(12, 10vw);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 20vw);
+    }
+}
+
+@media (max-width: 1024px) {
+    .contenedor {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 500px);
+    }
+}
