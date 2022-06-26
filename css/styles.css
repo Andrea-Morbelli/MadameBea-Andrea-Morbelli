@@ -108,7 +108,9 @@ p {
 
 form {
     width: 25%;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(21, 19, 19);
+    border-radius: 10px;
+    box-shadow: 50px;
     margin: 20px;
     padding: 20px;
 }
@@ -194,7 +196,7 @@ footer ul {
 
 .grids-bio {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%;
 
 }
 
@@ -288,7 +290,7 @@ footer ul {
     }
 
     .derechos {
-        font-size: 5px;
+        font-size: 3px;
         text-align: left;
     }
 }
