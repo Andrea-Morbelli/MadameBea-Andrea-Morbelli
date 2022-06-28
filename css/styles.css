@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     color: whitesmoke;
-    font-size: 40;
 }
 
 /*-----seccion header------*/
@@ -34,14 +33,14 @@ body {
 
 
 #navbar-items {
-    display: flex;
+    display: inline-flex;
     list-style: none;
     margin-right: 30px;
 
 }
 
 #navbar-items li {
-    border radius: 3px;
+    border-radius: 3px;
     margin: 0 5px;
 }
 
