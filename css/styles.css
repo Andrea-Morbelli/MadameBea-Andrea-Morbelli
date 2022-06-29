@@ -22,9 +22,12 @@ header {
 }
 }
 
+.container {
+    container-fuid 
+}
 #container {
     background-color: black;
-    height: 80px;
+    height: 100px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -37,15 +40,16 @@ header {
     font-size: 35px;
     padding: 0 80px;
     font-weight: bold;
+    align-items: center;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
 }
-.menu-items {
+.navbar-nav {
     display: flex;
     list-style: none;
     margin-right: 30px;
@@ -58,7 +62,7 @@ li {
 }
 
 
-.menu-items li a {
+.navbar-nav li a {
     padding: 7px 13px;
     text-decoration: none;
     font-size: 20px;
@@ -66,7 +70,7 @@ li {
     color: whitesmoke;
 }
 
-.menu-items li:hover,
+.navbar-nav li:hover,
 li:active {
     background-color: rgb(98, 93, 93);
     transition: .4s;
