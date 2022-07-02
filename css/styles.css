@@ -11,24 +11,20 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    background-color: white;
+
+}
 
 header {
-    font-family:'Karla', sans-serif;
-    color: whitesmoke;
-    font-size: 55px;
-    padding: 0 80px;
-    font-weight: bold;
-}
-}
-
-.container {
-    container-fuid 
-}
-#container {
     background-color: black;
     height: 100px;
-    width: 100vw;
+    width: 100%;
+}
+
+
+#container {
+
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,10 +39,10 @@ header {
     align-items: center;
 }
 
-.navbar-nav li a {
+.navbar-nav li a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Karla', sans-serif;
 }
 .navbar-nav {
@@ -70,9 +66,15 @@ li {
     color: whitesmoke;
 }
 
+a {
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+
+}
+
 .navbar-nav li:hover,
 li:active {
-    background-color: rgb(98, 93, 93);
+    background-color: rgb(167, 156, 156);
     transition: .4s;
 }
 
@@ -146,7 +148,7 @@ input:focus {
 /*----Seccioon footer...*/
 
 .footer {
-    background-color: white;
+    background-color: black;
     padding: 40px;
     height: 15vh;
     display: flex;
@@ -195,14 +197,6 @@ footer ul {
 /*------------------------------SECCION GRID------------------------*/
 
 
-
-/*---Seccion Biografia---*/
-
-.grids-bio {
-    display: grid;
-    grid-template-columns: 35% 65%;
-
-}
 
 /*---Seccion Galeria---*/
 
