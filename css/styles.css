@@ -184,6 +184,7 @@ footer ul {
 }
 
 
+
 .derechos {
     display: flex;
     justify-content: center;
@@ -215,18 +216,6 @@ footer ul {
     justify-content: center;
 }
 
-/*------------------------------SECCION GRID------------------------*/
-
-/*---Seccion Obras Destacadas---*/
-
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 500px);
-
-    gap: 20px 40px;
-
-}
 
 /*--------------------------SECCION RESPONSIVE---------------------------*/
 
