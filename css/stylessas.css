@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    font-size: 40;
+}
+
+/*-----seccion header------*/
+
+body {
+    font-family: 'Karla', sans-serif;
+
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+
+#container {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.navbar-nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+
+.navbar-nav li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.navbar-nav li:hover,
+li:active {
+    background-color: rgb(167, 156, 156);
+    transition: .4s;
+}
+
+
+.banner {
+    width: 100%;
+    height: calc(100vw-40vh);
+    background-image: url(../img/imagen_fondo1.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+
+/*-----Seccion main------*/
+
+main {
+    padding: 40px;
+
+}
+
+.titulos {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+p {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 2rem;
+
+}
+
+form {
+    width: 25%;
+    border: 2px solid rgb(21, 19, 19);
+    border-radius: 10px;
+    box-shadow: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    color: grey;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input,
+textarea {
+    color: grey;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid color gray;
+}
+
+input:focus {
+
+    border: 2px solid blue;
+}
+
+/*----Seccioon footer...*/
+
+.footer {
+    background-color: black;
+    padding: 40px;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+/*---Seccion Redes Sociales---*/
+
+.contenedor-redes {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-redes i {
+
+    font-size: 2rem;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.derechos {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*-------------------------SECCION ESTILOS--------------------------*/
+
+#section-cards {
+    color: grey;
+}
+
+#main-galeria a {
+    background-color: rgb(167, 156, 156);
+    border: rgb(167, 156, 156);
+    transition: 0.3s;
+
+}
+
+.c-gris {
+    color: grey
+}
+
+#main-galeria a:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+
+/*--------------------------SECCION RESPONSIVE---------------------------*/
+
+
+
+/*---Seccioon Portfolio---*/
+
+.portfolio-contenedor {
+    padding: 2vh 7.5vw;
+}
+
+.portfolio-grilla {
+    height: 100vh;
+
+    display: grid;
+    gap: 20px;
+
+}
+
+.portfolio-grilla>img {
+    width: 100%;
+    height: 100%;
+
+    transition: 1.2s;
+    object-fit: cover;
+}
+
+.portfolio-grilla img:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 575px) {
+    .portfolio-grilla {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 55vh);
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .portfolio-grilla {
+        grid-template-columns:repeat (3,1fr);
+        grid-template-rows: repeat (4,40vh);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .portfolio-grilla {
+        grid-template-columns: repeat (2,1fr);
+        grid-template-rows: repeat (6,40vh);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .portfolio-grilla {
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: repeat(3, 55fr);
+
+        grid-template-areas:
+            "portfolio-img1 portfolio-img2 portfolio-img3 portfolio-img4"
+            "portfolio-img5 portfolio-img6 portfolio-img7 portfolio-img8"
+            "portfolio-img9 portfolio-img10 portfolio-img11 portfolio-img12";
+    }
+.portfolio-img1 {
+    grid-area: portfolio-img1;
+}
+
+.portfolio-img2 {
+    grid-area: portfolio-img2;
+}
+
+.portfolio-img3 {
+    grid-area: portfolio-img3;
+}
+
+.portfolio-img4 {
+    grid-area: portfolio-img4;
+}
+
+.portfolio-img5 {
+    grid-area: portfolio-img5;
+}
+
+.portfolio-img6 {
+    grid-area: portfolio-img6;
+}
+
+.portfolio-img7 {
+    grid-area: portfolio-img7;
+}
+
+.portfolio-img8 {
+    grid-area: portfolio-img8;
+}
+
+.portfolio-img9 {
+    grid-area: portfolio-img9;
+}
+
+.portfolio-img10 {
+    grid-area: portfolio-img10;
+}
+
+.portfolio-img11 {
+    grid-area: portfolio-img11;
+}
+
+.portfolio-img12 {
+    grid-area: portfolio-img12;
+}
+}

@@ -1,0 +1,21 @@
+#section-cards {
+    color: grey;
+}
+
+#main-galeria a {
+    background-color: rgb(167, 156, 156);
+    border: rgb(167, 156, 156);
+    transition: 0.3s;
+
+}
+
+.c-gris {
+    color: grey
+}
+
+#main-galeria a:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    justify-content: center;
+}

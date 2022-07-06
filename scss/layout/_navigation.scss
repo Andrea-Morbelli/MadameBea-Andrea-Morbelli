@@ -1,0 +1,39 @@
+.navbar-nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+
+.navbar-nav li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.navbar-nav li:hover,
+li:active {
+    background-color: rgb(167, 156, 156);
+    transition: .4s;
+}
