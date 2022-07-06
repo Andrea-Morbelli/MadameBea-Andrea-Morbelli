@@ -8,7 +8,7 @@ form {
 }
 
 label {
-    color: grey;
+    color: $color-principal;
     font-family: 'Karla', sans-serif;
     font-size: 12px;
     display: block;
@@ -17,7 +17,7 @@ label {
 
 input,
 textarea {
-    color: grey;
+    color: $color-principal;
     margin-bottom: 20px;
     width: 100%;
     padding: 10px;
