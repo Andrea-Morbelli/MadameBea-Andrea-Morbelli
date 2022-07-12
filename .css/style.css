@@ -8,8 +8,8 @@
 }
 
 .letraMediana {
-  font-size: 1.5rem;
-  font-weight: 200;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .letraGrande {
@@ -58,6 +58,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid whitesmoke;
 }
 
 .logo {
@@ -67,12 +68,6 @@ header {
   font-weight: bold;
   align-items: center;
 }
-
-#navbarNavDropdown {
-  background-color: black;
-  border: 2px solid color black;
-  border-radius: 10px;
-  }
 
 .navbar-nav li a {
   color: whitesmoke;
@@ -325,4 +320,4 @@ input:focus {
   border: 2px solid blue;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
