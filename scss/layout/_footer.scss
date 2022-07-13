@@ -1,4 +1,4 @@
-.footer {
+.contenedor-footer {
     background-color: black;
     padding: 40px;
     height: 15vh;
@@ -14,19 +14,24 @@
     text-decoration: none;
 }
 }
+
+
 /*---Seccion Redes Sociales---*/
 
 .contenedor-redes {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .contenedor-redes i {
+    display: flex;
+    flex-direction: row;
     font-size: 2rem;
     color: black;
     padding: 20px;
-    display: flex;
     justify-content: center;
+
 }
 
 
