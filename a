@@ -1,0 +1,149 @@
+[33mcommit 79f1fce46a5d2f53c4c69b4097e99378e16fc667[m[33m ([m[1;36mHEAD -> [m[1;32msass[m[33m, [m[1;31morigin/sass[m[33m)[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jul 13 17:44:42 2022 -0300
+
+    creo archivo maps
+
+[33mcommit faf9423f82ad343b49999417e790452af485a235[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jul 13 16:35:23 2022 -0300
+
+    footer
+
+[33mcommit 8bf6b10c1d29df3c5fa741c35a23afd114bc890a[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Tue Jul 12 20:29:28 2022 -0300
+
+    modifico nav bio
+
+[33mcommit f6daaa16535aa670a24709dc4b66fcca962a8ad3[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Tue Jul 12 19:33:23 2022 -0300
+
+    meta y titles
+
+[33mcommit f7dc6f5ffc2db8b879e125cb22f7b7380a4f8b4d[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Tue Jul 12 19:18:48 2022 -0300
+
+    navbarDropdown
+
+[33mcommit ee645eff43713e16e3169e174de0ddd03c6d0448[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Tue Jul 12 19:15:38 2022 -0300
+
+    header
+
+[33mcommit 3194e165d7eb8de1e469912cd5fdc5ebd55e30ae[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Tue Jul 12 19:12:49 2022 -0300
+
+    navbar desplegable
+
+[33mcommit f93366b69a4c86d199119eb23ff94afbcb6ba43a[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Mon Jul 11 18:26:04 2022 -0300
+
+    creo carpeta botones y mixins
+
+[33mcommit 4576c9ffc626cb963462003d9b96c0cf419b9651[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Mon Jul 11 17:27:35 2022 -0300
+
+    cambios menu desplegable
+
+[33mcommit e413d40f34302ac295516bdb88af0c721fe61055[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jul 6 17:44:50 2022 -0300
+
+    agrego variable color
+
+[33mcommit fa3cf8cc87d6a16596c621ae9d19ce7f8c20079b[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jul 6 17:26:46 2022 -0300
+
+    sass
+
+[33mcommit 27f2fd0d2e36fc7e9db329a394a3ab0f5da35db5[m[33m ([m[1;31morigin/practica2[m[33m, [m[1;32mpractica2[m[33m)[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Mon Jul 4 15:47:30 2022 -0300
+
+    guardo cambios control de errores
+
+[33mcommit 37a9a853b4390dc93c2ad9f6334dd059e7e05a8a[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jul 3 20:01:59 2022 -0300
+
+    agrego imagenes a galeria
+
+[33mcommit 41b6ff488d1dbdeb1490dfa6d80c5f2a7a41f822[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jul 3 19:36:48 2022 -0300
+
+    vuelvo a modificar bio
+
+[33mcommit b4524b1fb37cefdd6122c2afe0084d402bdcf3af[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jul 3 18:19:39 2022 -0300
+
+    portfolio responsive
+
+[33mcommit c1600aac76f1d95af17b4070c5fb330b0ba38c36[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sat Jul 2 16:28:46 2022 -0300
+
+    cambios en navbar y bio con bootstrap
+
+[33mcommit fffc39d15946e0f678365a3e7054bd812dd4a714[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jun 29 20:26:55 2022 -0300
+
+    configuro menu hamburguesa
+
+[33mcommit f0a3c05f93e417422dddcc5b861a104e3c0222ad[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jun 29 19:18:37 2022 -0300
+
+    ¨estilos¨
+
+[33mcommit 885297ce866960389c5efd2121f55855c40c93c5[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jun 29 16:33:21 2022 -0300
+
+    modifico carpetas de bootstrap
+
+[33mcommit 6f04317447a5442a6c94b7994f2dc2a1d1d9f068[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Wed Jun 29 15:57:37 2022 -0300
+
+    modifico carpeta js de lugar
+
+[33mcommit 4e14c558b28f001ffabc837f8deefb6bb457adbb[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jun 26 16:45:01 2022 -0300
+
+    agrego links de bootstrap
+
+[33mcommit 8630ff7b475e9b08da0fc324c784ee3964c00884[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jun 26 11:36:13 2022 -0300
+
+    agrego animacion a fotos de galeria
+
+[33mcommit 619a0e52b41a490e5c2e13d2b903ace2f49668cd[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sun Jun 26 09:47:42 2022 -0300
+
+    modifique cambios de esstilos
+
+[33mcommit 9f68f5ecb6827a2d53988fb0c17e9ee16337f166[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Sat Jun 25 16:14:22 2022 -0300
+
+    Se agrega animacion a bio
+
+[33mcommit 0216078b01c2f38c8988ccb83fc1c393dfc74da6[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: andrea morbelli <andreamorbelli@gmail.com>
+Date:   Fri Jun 24 17:48:53 2022 -0300
+
+    Inicio del Proyecto
