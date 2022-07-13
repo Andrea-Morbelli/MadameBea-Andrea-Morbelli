@@ -128,7 +128,8 @@ li:active {
   justify-content: center;
   align-items: baseline;
 }
-.contenedor-footer .footer ul {
+
+.contenedor-footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
