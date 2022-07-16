@@ -1,4 +1,9 @@
+footer {
+    background: black;
+}
+
 .contenedor-footer {
+    background-color: black;
     padding: 40px;
     height: 15vh;
     display: flex;
@@ -21,7 +26,6 @@
     flex-direction: row;
     justify-content: center;
 }
-
 
 .contenedor-redes i {
     display: flex;
