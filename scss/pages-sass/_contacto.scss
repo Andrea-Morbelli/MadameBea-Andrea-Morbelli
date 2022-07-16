@@ -9,13 +9,15 @@ form {
     box-shadow: 50px;
     margin: 20px;
     padding: 20px;
+    background-color: black;
 }
 
 label {
+    background-color: black;
     color: grey;
     font-family: 'Karla', sans-serif;
     font-size: 12px;
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 
@@ -31,5 +33,5 @@ textarea {
 
 input:focus {
 
-    border: 2px solid blue;
+    border: 2px solid white;
 }

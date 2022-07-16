@@ -26,7 +26,7 @@
 <body>
     <header class="navbar navbar-expand-lg border-bottom container-fuid">
         <div class="container" id="container">
-            <a class="navbar-brand fs-1 fw-bold" style= "color: whitesmoke" href="../index.html">MADAME BEA</a>
+            <a class="navbar-brand fs-1 fw-bold" style="color: whitesmoke" href="../index.html">MADAME BEA</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: whitesmoke;"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -56,41 +56,46 @@
         </div>
     </header>
 
-    <main id="main-contacto" class="contenedor-contacto">
+    <main id="main-contacto" class="contenedor-contacto py-5">
+
+        <div class="row">
+
+            <div class="col-12 col-lg-7">
+                <form>
+                    <div>
+                        <label for="campo-nombre">Nombre y Apellido</label>
+                        <input type="text" id="campo-nombre" placeholder="Nombre y Apellido..." required>
+
+                        <label for="campo-mail">Email</label>
+                        <input type="Email" id="campo-mail" placeholder="ejemplo@mailfalso.com" required>
 
 
-            <article>
+                        <label for="campo-telefono">Telefono</label>
+                        <input type="tel" id="campo-telefono" placeholder="Telefono...">
 
-                <p class="parrafo1">Por favor, póngase en contacto conmigo si está interesado en una pieza disponible o
-                    si tiene
-                    consultas sobre comisiones. Gracias.</p>
+                        <div>
+                            <textarea name="texto" id="campo-texto" cols="30" rows="10"></textarea>
+                        </div>
 
-                <p>POR FAVOR COMPLETE EL SIGUIENTE FORMULARIO</p>
-            </article>
+                        <input type="submit" style="background-color: black" value="Enviar mensaje">
+                        <input type="reset" style="background-color: black" value="Borrar formulario">
+                    </div>
+                </form>
 
-            <form>
+            </div>
 
-                <label for="campo-nombre">Nombre y Apellido</label>
-                <input type="text" id="campo-nombre" placeholder="Nombre y Apellido..." required>
+            <div class="col-12 col-lg-5 d-flex align-items-center">
+                <article>
+                    <h1 class="display-4 fw-bold text-center" style="color: grey">CONTACTO</h1>
+                    <p class="parrafo1 text-center">Por favor, póngase en contacto conmigo si está interesado en una
+                        pieza
+                        disponible o
+                        si tiene
+                        consultas sobre comisiones. Gracias.</p>
+                </article>
 
-                <label for="campo-mail">Email</label>
-                <input type="Email" id="campo-mail" placeholder="ejemplo@mailfalso.com" required>
-
-
-                <label for="campo-telefono">Telefono</label>
-                <input type="tel" id="campo-telefono" placeholder="Telefono...">
-
-                <div>
-                    <textarea name="texto" id="campo-texto" cols="30" rows="10"></textarea>
-                </div>
-
-
-
-                <input type="submit" value="Enviar mensaje">
-                <input type="reset" value="Borrar formulario">
-
-            </form>
-
+            </div>
+        </div>
     </main>
 
     <footer class="contenedor-footer">
