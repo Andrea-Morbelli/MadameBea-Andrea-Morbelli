@@ -9,10 +9,11 @@
  
 }
 .contenedor-footer ul {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-decoration: none;
+    list-style-type: none
 }
 
 /*---Seccion Redes Sociales---*/
@@ -31,7 +32,7 @@
     color: whitesmoke;
     padding: 20px;
     justify-content: center;
-    text-decoration: none;
+    
 
 }
 

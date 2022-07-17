@@ -135,7 +135,7 @@ li:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  text-decoration: none;
+  list-style-type: none;
 }
 
 /*---Seccion Redes Sociales---*/
@@ -152,44 +152,11 @@ li:active {
   color: whitesmoke;
   padding: 20px;
   justify-content: center;
-  text-decoration: none;
 }
 
 .derechos {
   display: flex;
   justify-content: center;
-}
-
-form {
-  width: 25%;
-  border: 2px solid rgb(21, 19, 19);
-  border-radius: 10px;
-  box-shadow: 50px;
-  margin: 20px;
-  padding: 20px;
-}
-
-label {
-  color: grey;
-  font-family: "Karla", sans-serif;
-  font-size: 12px;
-  display: block;
-  width: 100%;
-}
-
-input,
-textarea {
-  color: grey;
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid color gray;
-}
-
-input:focus {
-  border: 3px solid blue;
-  color: whitesmoke;
 }
 
 /*---Seccioon Portfolio---*/
@@ -293,9 +260,8 @@ main {
 }
 
 #main-galeria a {
-  background-color: rgb(167, 156, 156);
-  border: rgb(167, 156, 156);
-  transition: 0.3s;
+  background-color: rgb(230, 210, 210);
+  border: 3px solid black transition 0, 3s;
 }
 
 .c-gris {
@@ -314,7 +280,7 @@ main {
 }
 
 form {
-  width: 25%;
+  width: 450px;
   border: 2px solid rgb(21, 19, 19);
   border-radius: 10px;
   box-shadow: 50px;
