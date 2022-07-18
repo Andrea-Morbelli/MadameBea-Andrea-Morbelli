@@ -157,7 +157,6 @@ li:active {
 .derechos {
   display: flex;
   justify-content: center;
-  font-size: x-small;
 }
 
 /*---Seccioon Portfolio---*/
@@ -280,7 +279,7 @@ main {
 }
 
 form {
-  width: 400px;
+  width: 450px;
   border: 2px solid rgb(21, 19, 19);
   border-radius: 10px;
   box-shadow: 50px;
@@ -312,4 +311,4 @@ input:focus {
   border: 2px solid white;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.cssq.map */
