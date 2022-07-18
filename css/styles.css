@@ -157,7 +157,7 @@ li:active {
 .derechos {
   display: flex;
   justify-content: center;
-  font-size: x-small;
+  font-size: medium;
 }
 
 /*---Seccioon Portfolio---*/
