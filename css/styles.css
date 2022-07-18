@@ -165,7 +165,6 @@ li:active {
 }
 
 .portfolio-grilla {
-  height: 100vh;
   display: grid;
   gap: 20px;
 }
